@@ -9,7 +9,9 @@ const PORT = process.env.PORT || 4000;
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: '*',
+}));
 app.use('/api', router);
 app.use(errorHandler);
 
