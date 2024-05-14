@@ -1,5 +1,6 @@
 # Events Registration App
 ## Functionality: Basic and Middle level requirements are covered
+You can check out the site here https://events-client-omega.vercel.app/ (hope it's still working))
 ### Settings before starting
 - node version: v20.2.0
 - npm version: 9.6.6
